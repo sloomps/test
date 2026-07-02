@@ -10349,8 +10349,7 @@ client.login(TOKEN).then(() => {
 'use strict';
 
 // ── Core Node Modules ────────────────────────────────────────
-const fs   = require('fs');
-const path = require('path');
+
 
 // ── Discord.js ───────────────────────────────────────────────
 const {
