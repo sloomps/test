@@ -7,18 +7,18 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@discordjs/rest": "^2.4.0",
-    "@discordjs/voice": "^0.17.0",
-    "canvas": "^3.0.0-rc2",
-    "discord-api-types": "^0.37.119",
     "discord.js": "^14.15.0",
     "dotenv": "^16.4.5",
-    "ffmpeg-static": "^5.2.0",
-    "node-fetch": "^2.7.0",
-    "opusscript": "^0.1.1",
+    "@discordjs/rest": "^2.4.0",
+    "@discordjs/voice": "^0.17.0",
+    "discord-api-types": "^0.37.119",
+    "ytdl-core": "^4.11.5",
     "play-dl": "^1.9.7",
+    "ffmpeg-static": "^5.2.0",
     "sodium-native": "^4.3.1",
-    "ytdl-core": "^4.11.5"
+    "opusscript": "^0.1.1",
+    "node-fetch": "^2.7.0",
+    "canvas": "^3.0.0-rc2"
   },
   "engines": {
     "node": ">=16.9.0"
