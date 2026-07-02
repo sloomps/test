@@ -21001,4 +21001,17 @@ client.login(TOKEN).then(() => {
 //  - Owner-only commands
 //  And much, much more!
 // ──────────────────────────────────────────────────────────────
+const express = require('express');
+const app = express();
+const PORT = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('Bot is Online!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
+// سطر تسجيل الدخول بالتوكن الصحيح الخاص بك
 client.login(TOKEN);
